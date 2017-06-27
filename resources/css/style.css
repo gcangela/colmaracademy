@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  font-size: 18px;
+}
+body{
+  margin: 0;
+  font-family: Georgia, sans-serif;
+}
+
+/* Desktop header styles */
+.desktop-header{
+  height: 64px;
+  position: fixed;
+  width:100%;
+}
+
+.container.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo{
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.colmar{
+  color: darkblue;
+}
+.academy{
+  color:grey;
+}
+.logo img{
+  height: 64px;
+}
+.navigation ul, a{
+  text-decoration: none;
+  color: grey;
+}
+.navigation li{
+  display:inline;
+  padding:16px;
+}
+
+/*Start here section */
+.primary-container{
+  position: relative;
+  top: 64px;
+  background-color: lightgrey;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.banner-image{
+  width: 60%;
+  height: auto;
+  background-image: url(/Users/giancarlo/Documents/Dev_Projects/ColmarAcademy/resources/images/banner.jpg);
+}
+.banner-text{
+  width: 40%;
+}
