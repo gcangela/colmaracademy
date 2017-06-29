@@ -25,7 +25,7 @@ html{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  width: 1024px;
+  width: 1200px;
 
 }
 .logo{
@@ -63,7 +63,7 @@ html{
 }
 
 .banner-container{
-  width: 1024px;
+  width: 1200px;
   background-color: lightgrey;
 }
 .banner-items{
@@ -112,7 +112,7 @@ html{
   color:white;
 }
 .start-here a:hover{
-  color: green;
+  color: #378B2E;
 }
 
  /* Information styles */
@@ -134,7 +134,7 @@ html{
 }
 
 .info-container{
-  width: 1024px;
+  width: 1200px;
   display:flex;
   justify-content:
 }
@@ -243,5 +243,5 @@ html{
 
 }
 .read-more a:hover{
-  color:navy;
+  color:#378B2E;
 }
