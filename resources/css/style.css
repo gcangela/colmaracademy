@@ -3,23 +3,29 @@
 }
 html{
   font-size: 18px;
-}
-body{
   margin: 0;
-  font-family: Georgia, sans-serif;
+  font-family: "Roboto", sans-serif;
+
 }
+
 
 /* Desktop header styles */
 .desktop-header{
   height: 64px;
   position: fixed;
   width:100%;
+  z-index: 2;
+  display:flex;
+  justify-content: center;
+  box-shadow: 0 0 1px 0 black;
+  background-color: white;
 }
 
 .container.header{
   display:flex;
   justify-content: space-between;
   align-items: center;
+  width: 1024px;
 
 }
 .logo{
@@ -28,7 +34,7 @@ body{
   align-items: center;
 }
 .colmar{
-  color: darkblue;
+  color: #36454F;
 }
 .academy{
   color:grey;
@@ -46,20 +52,196 @@ body{
 }
 
 /*Start here section */
+
 .primary-container{
   position: relative;
   top: 64px;
-  background-color: lightgrey;
   width:100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
+}
+
+.banner-container{
+  width: 1024px;
+  background-color: lightgrey;
+}
+.banner-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .banner-image{
   width: 60%;
-  height: auto;
-  background-image: url(/Users/giancarlo/Documents/Dev_Projects/ColmarAcademy/resources/images/banner.jpg);
+  padding: 32px 0 32px 24px;
+}
+.banner-image img{
+  width: 100%;
+
 }
 .banner-text{
   width: 40%;
+  padding: 0 0 0 40px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.learn-text h2{
+  font-size: 2rem;
+  font-weight: bold;
+  color:#36454F;
+}
+.learn-text h4{
+  font-size: 1.25rem;
+}
+.banner-box{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.start-here {
+  background-color: #36454F;
+  color: white;
+  width: 80%;
+  padding: 8px 0;
+}
+.start-here a{
+  color:white;
+}
+.start-here a:hover{
+  color: green;
+}
+
+ /* Information styles */
+
+/* Left-side */
+
+.secondary-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin-top: 64px;
+  padding-bottom: 32px;
+
+}
+
+.secondary-container div{
+  border: 1px solid green;
+
+}
+
+.info-container{
+  width: 1024px;
+  display:flex;
+  justify-content:
+}
+
+.info-left{
+  width: 60%;
+  display:flex;
+  justify-content: flex-start;
+  padding: 32px 24px;
+  flex-direction: column;
+}
+
+.img-container{
+  width: 100%;
+}
+
+.img-container img{
+  width:100%;
+}
+
+.text-container{
+  width: 100%;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+
+.text-container h2{
+  color:#36454F;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.text-container p{
+  color:grey;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.info-left span{
+  padding-bottom: 0px;
+}
+
+/* Right side */
+
+.info-right{
+  width: 423px;
+  display:flex;
+  flex-direction: column;
+  padding:32px 0;
+  justify-content: space-between;
+}
+.right-items{
+  width:100%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-items:hover{
+  background-color:lightgrey;
+}
+.item-img {
+  width:35%;
+  padding: 16px;
+}
+
+#campus {
+  padding:16px 16px;
+}
+
+#lecture{
+  padding:16px 16px;;
+}
+.details{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+
+}
+.headline{
+  padding-bottom: 8px;
+  font-size: 1.25rem;
+  font-weight:bold;
+  color:#36454F;
+}
+.description{
+  font-size: 0.8rem;
+  color:grey;
+  padding-bottom: 8px;
+}
+.read-more{
+  border: 1px solid #36454F;
+  color: white;
+  background-color: #36454F;
+  text-align: center;
+  margin-top: 10px;
+  width:50%;
+
+}
+.read-more a{
+  color:white;
+  margin-top: 10px;
+
+}
+.read-more a:hover{
+  color:navy;
 }
