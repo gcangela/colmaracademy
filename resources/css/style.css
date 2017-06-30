@@ -34,17 +34,17 @@ html{
   align-items: center;
 }
 .colmar{
-  color: #36454F;
+  color:#4f3645;
 }
 .academy{
-  color:grey;
+  color: #378B2E;
 }
 .logo img{
   height: 64px;
 }
 .navigation ul, a{
   text-decoration: none;
-  color: grey;
+  color: #378B2E;
 }
 .navigation li{
   display:inline;
@@ -64,7 +64,7 @@ html{
 
 .banner-container{
   width: 1200px;
-  background-color: lightgrey;
+  background-color: #eaeced;
 }
 .banner-items{
   display: flex;
@@ -90,10 +90,11 @@ html{
 .learn-text h2{
   font-size: 2rem;
   font-weight: bold;
-  color:#36454F;
+  color:#4f3645;
 }
 .learn-text h4{
   font-size: 1.25rem;
+  color:#725e6a;
 }
 .banner-box{
   width: 100%;
@@ -103,10 +104,11 @@ html{
 
 }
 .start-here {
-  background-color: #36454F;
+  background-color: #4f3645;
   color: white;
   width: 80%;
   padding: 8px 0;
+  border-radius: 4px;
 }
 .start-here a{
   color:white;
@@ -125,18 +127,12 @@ html{
   justify-content: center;
   margin-top: 64px;
   padding-bottom: 32px;
-
-}
-
-.secondary-container div{
-  
-
 }
 
 .info-container{
   width: 1200px;
   display:flex;
-  justify-content:
+  text-align: left;
 }
 
 .info-left{
@@ -165,7 +161,7 @@ html{
 }
 
 .text-container h2{
-  color:#36454F;
+  color:#4f3645;
   font-size: 1.75rem;
   font-weight: bold;
 }
@@ -197,7 +193,7 @@ html{
 }
 
 .right-items:hover{
-  background-color:lightgrey;
+  background-color:#eaeced;
 }
 .item-img {
   width:35%;
@@ -221,27 +217,169 @@ html{
   padding-bottom: 8px;
   font-size: 1.25rem;
   font-weight:bold;
-  color:#36454F;
+  color:#725e6a;
 }
 .description{
-  font-size: 0.8rem;
-  color:grey;
+  color:#378B2E;
   padding-bottom: 8px;
+  font-weight: 200;
 }
 .read-more{
-  border: 1px solid #36454F;
+  border: 1px solid #4f3645;
   color: white;
-  background-color: #36454F;
+  background-color: #4f3645;
   text-align: center;
   margin-top: 10px;
   width:50%;
+  padding: 5px;
+  border-radius: 4px;
 
 }
 .read-more a{
   color:white;
   margin-top: 10px;
 
+
 }
 .read-more a:hover{
   color:#378B2E;
+}
+
+/* Start learning section styles*/
+
+.tertiary-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.learn-flex{
+  width:1200px;
+  display:flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  text-align: center;
+  background-color: #eaeced;
+}
+.heading{
+  padding: 32px 0;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color:#4f3645;
+}
+.row1{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  margin-bottom: 15px;
+
+}
+.row2{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  padding-bottom: 32px;
+}
+.learn-item{
+  padding:0 32px;
+  width: 100% ;
+  display:flex;
+}
+.learn-img:hover{
+  background-color: #4f3645;
+}
+.learn-item img{
+  width:100%;
+}
+.learn-img{
+  width: 100%;
+  background-color:white;
+  text-align: left;
+}
+.course-title{
+  padding: 16px 0 16px 16px;
+  font-size: 1.25rem;
+  font-weight:bold;
+  color:#725e6a;
+}
+.courses{
+  padding: 8px 16px;
+  color:grey;
+  font-weight:600;
+}
+.courses-text{
+  padding:0 16px 24px 16px;
+  color:#378B2E;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+/* Thesis section styles */
+.thesis-heading-container {
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin:0;
+}
+
+.thesis-container{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  text-align: center;
+}
+
+}
+.thesis-flex{
+  width:1200px;
+  display:flex;
+  flex-direction: column;
+
+}
+#thesis-left{
+  width: 60%;
+  display:flex;
+  justify-content: flex-start;
+  padding: 0px 24px;
+  flex-direction: column;
+}
+#thesis-col-right{
+  width: 423px;
+  display:flex;
+  flex-direction: column;
+  padding:0px;
+  justify-content: flex-start;
+}
+#thesis-item{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  height:168px;
+  width: 100%;
+}
+.thesis-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+/* Footer styles */
+footer{
+  display: flex;
+  justify-content: center;
+  width:100%;
+
+}
+.footer{
+  width:1200px;
+  display:flex;
+  font-size: .75rem;
+  justify-content: space-between;
+  border-top: 1px solid grey;
+  padding: 10px 0 32px 24px;
+  color:#378B2E;
+}
+.footer li{
+  display: inline;
+  padding: 10px 5px;
 }
