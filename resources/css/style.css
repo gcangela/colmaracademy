@@ -409,6 +409,9 @@ footer{
 
 
 /* Mobile styles */
+
+
+/* Mobile styles */
 @media only screen and (max-width: 768px) {
   .desktop-header{
     display:none;
@@ -543,10 +546,3 @@ footer{
   .footer-text{
     padding: 16px 0;
   }
-
-
-
-
-
-
-}
