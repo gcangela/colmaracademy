@@ -8,8 +8,8 @@ html{
 
 }
 
-
 /* Desktop header styles */
+
 .desktop-header{
   height: 64px;
   position: fixed;
@@ -33,19 +33,24 @@ html{
   display: flex;
   align-items: center;
 }
+
 .colmar{
   color:#4f3645;
 }
+
 .academy{
   color: #378B2E;
 }
+
 .logo img{
   height: 64px;
 }
+
 .navigation ul, a{
   text-decoration: none;
   color: #378B2E;
 }
+
 .navigation li{
   display:inline;
   padding:16px;
@@ -59,26 +64,28 @@ html{
   width:100%;
   display: flex;
   justify-content: center;
-
 }
 
 .banner-container{
   width: 1200px;
   background-color: #eaeced;
 }
+
 .banner-items{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .banner-image{
   width: 60%;
   padding: 32px 0 32px 24px;
 }
+
 .banner-image img{
   width: 100%;
-
 }
+
 .banner-text{
   width: 40%;
   padding: 0 0 0 40px;
@@ -87,15 +94,18 @@ html{
   align-items: center;
   justify-content: center;
 }
+
 .learn-text h2{
   font-size: 2rem;
   font-weight: bold;
   color:#4f3645;
 }
+
 .learn-text h4{
   font-size: 1.25rem;
   color:#725e6a;
 }
+
 .banner-box{
   width: 100%;
   text-align: center;
@@ -103,6 +113,7 @@ html{
   justify-content: flex-start;
 
 }
+
 .start-here {
   background-color: #4f3645;
   color: white;
@@ -110,9 +121,11 @@ html{
   padding: 8px 0;
   border-radius: 4px;
 }
+
 .start-here a{
   color:white;
 }
+
 .start-here a:hover{
   color: #378B2E;
 }
@@ -185,6 +198,7 @@ html{
   padding:32px 0;
   justify-content: space-between;
 }
+
 .right-items{
   width:100%;
   display:flex;
@@ -195,6 +209,7 @@ html{
 .right-items:hover{
   background-color:#eaeced;
 }
+
 .item-img {
   width:35%;
   padding: 16px;
@@ -383,3 +398,14 @@ footer{
   display: inline;
   padding: 10px 5px;
 }
+
+/* Tablet styles */
+
+
+
+
+
+
+
+
+/* Mobile styles */
